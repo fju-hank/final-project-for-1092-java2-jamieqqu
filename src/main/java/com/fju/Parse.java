@@ -27,10 +27,10 @@ public class Parse {
         final ArrayList<Map<String, String>> list;
         final CSVParser parser;
         final CSVFormat csvFormat = CSVFormat.DEFAULT;
-        final Charset charset = Charset.forName("UTF-8");
+        final Charset charset = Charset.forName("MS950");
         list = new ArrayList<Map<String, String>> ();
         try {
-            File file = new File("C:\\Users\\a0989\\IdeaProjects\\0627\\src\\resource\\source.csv");
+            File file = new File("C:\\Users\\a0989\\IdeaProjects\\final-project-for-1092-java2-jamieqqu\\src\\main\\java\\resource\\source.cvs");
             parser = CSVParser.parse(file, charset, csvFormat);
             for (CSVRecord record : parser ) {
                 Iterator<String> it = record.iterator();
