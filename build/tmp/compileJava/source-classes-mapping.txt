@@ -1,0 +1,2 @@
+com/fju/Tester.java
+ com.fju.Tester
